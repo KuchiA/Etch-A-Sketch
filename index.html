@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch a Sketch</title>
+    <script src = "script.js" defer></script>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <div class = "title">Etch a Sketch</div>
+    <div class = "gridnum">
+        <div class = number>16 x 16</div>
+        <input type = "range" min = "16" max = "64" value = "16" class = "slidergrid" id = "myRange">
+    </div>
+    <div class = "grid"></div>
+    <div class = "buttonClass">
+        <input id="colorPicker" type="color" value="#000000" />
+        <button class = "clear button">Clear grid</button>
+        <button class = "eraser button">Eraser</button>
+    </div>   
+</body>
+</html>
